@@ -1,0 +1,15 @@
+**/composer.phar
+**/vendor/
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+**/public/hot
+**/*.key
+**/*.env
+**/*.log
+**/dist/
+**/.vscode
+**/.aws
+**/.aws/*
+**/config.js
+
