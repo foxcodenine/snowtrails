@@ -1,0 +1,11 @@
+services:
+
+  node:
+    container_name: sf-node-server
+    build:
+      context: .
+      dockerfile: dockerfiles/node.dockerfile
+    volumes:
+      - ./src:/var/www/snowtrails/node_server
+    stdin_open: true                                                    # docker run -i
+    tty: true                                                           # docker run -t

@@ -6,3 +6,12 @@
  1999  git remote add origin git@github.com:foxcodenine/snowtrails.git
  2000  git branch -M main
  2001  git push -u origin main
+
+
+
+
+$ git reset --hard HEAD^
+$ git reset --hard HEAD~2
+
+$ git init
+$ git pull git@github.com:foxcodenine/snowtrails.git
